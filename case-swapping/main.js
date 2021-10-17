@@ -22,3 +22,7 @@ function swap(str){
     }
     return changeCase
   }
+
+  //One line solution to above problem.
+
+//   const swap = (str) => str.split('').map(letter => letter === letter.toLowerCase() ? letter.toUpperCase() : letter.toLowerCase()).join('')
